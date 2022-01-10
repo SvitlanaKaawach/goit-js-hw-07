@@ -19,7 +19,7 @@ const galleryElements = galleryItems.map((item) =>
 gallery.insertAdjacentHTML("beforeend", galleryElements);
 
 
-let lightbox = new SimpleLightbox('.gallery a', { captionsData: "alt", captionPosition: "bottom", captionDelay: 250 });
+const lightbox = new SimpleLightbox('.gallery a', { captionsData: "alt", captionPosition: "bottom", captionDelay: 250 });
 
 console.log(gallery);
 console.log(galleryItems);
